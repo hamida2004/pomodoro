@@ -1,0 +1,46 @@
+Privacy Policy for Pomodoro App
+
+Last updated: March 5, 2026
+
+This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Pomodoro App ("the Service") and tells You about Your privacy rights and how the law protects You.
+
+We do not collect, store, transfer, or share any personal information about You. The Service operates primarily on your device.
+
+## Information Collection and Use
+
+### Local Data Storage
+*   **Purpose:** The Service allows You to set timers (study/break durations), choose ambient sounds (including custom sounds from your device), and select background themes (colors, gradients, images from your device). To provide these features and remember Your preferences between sessions, the Service stores configuration settings locally on Your device.
+*   **What is Stored:** This local data consists of timer durations, selected sound settings (whether built-in or the *reference/identifier* to a custom sound you picked), and selected theme settings (color, gradient choice, or *reference/identifier* to a background image you picked). This data is stored in your device's local storage using technologies like AsyncStorage.
+*   **Where it's Stored:** This information is stored *exclusively* on Your device. We do not have access to this data, nor is it transmitted from Your device to any server or third party.
+
+### Device Media Access (Images, Audio)
+*   **Purpose:** The Service offers features allowing You to select custom background images or ambient sounds from Your device's media library (e.g., photo gallery, music files).
+*   **How It Works:** When You choose to pick an image or audio file, the Service uses standard device APIs (like `expo-image-picker` for images and `expo-document-picker` for audio) to open Your device's file picker. You grant the Service temporary access to read the file You select. The Service only accesses the specific file You choose.
+*   **What Happens to the Files:** The Service *does not* upload, copy, or transmit the selected image or audio file to any external server. For images, the Service stores a *reference/identifier* (a URI) pointing to the location of the image on Your device. For audio, similarly, a *reference/identifier* to the selected file is stored locally. The actual media files remain on Your device under Your control. The Service only accesses them for playback (audio) or display (image) within the app.
+
+## Disclosure of Your Information
+
+We do not share, sell, rent, or trade Your personal information with third parties for their commercial purposes.
+
+We do not disclose Your information to third parties, except in the following circumstances:
+*   **Legal Requirements:** We may disclose Your information if required to do so by law or in response to valid requests by public authorities (e.g., a court or a government agency).
+
+## Security of Your Information
+
+The security of Your information is important to Us. However, please remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While We strive to use commercially acceptable means to protect Your information stored by the Service on Your device, We cannot guarantee its absolute security, particularly against threats originating from the device itself or its environment.
+
+## Children's Privacy
+
+Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If You are a parent or guardian and You are aware that Your child has provided Us with Personal Data, please contact Us. If We become aware that We have collected Personal Data from anyone under the age of 13 without verification of parental consent, We take steps to remove that information from Our servers (though in this app's case, no such data is collected or transmitted).
+
+## Links to Other Websites
+
+Our Service may contain links to other websites that are not operated by Us. If You click on a third-party link, You will be directed to that third party's site. We strongly advise You to review the Privacy Policy of every site You visit. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
+
+## Changes to this Privacy Policy
+
+We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
+
+## Contact Us
+
+If you have any questions about this Privacy Policy, You can contact us via email at [hamida2004dadda@gmail.com] 
